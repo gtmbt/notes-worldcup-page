@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于世界杯 · 简明指南与访问提醒</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #faf7f0;
+            font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+            color: #2c2c2c;
+            line-height: 1.9;
+            padding: 2rem 1.2rem;
+        }
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 252, 244, 0.7);
+            padding: 2.2rem 2rem;
+            border-radius: 18px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.03);
+        }
+        .hero-line {
+            font-size: 1.9rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: #3f3b32;
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 2px solid #e2d9cb;
+            line-height: 1.3;
+        }
+        .hero-line small {
+            font-size: 1rem;
+            color: #7b7266;
+            font-weight: 300;
+            display: block;
+            margin-top: 0.4rem;
+        }
+        .intro-text {
+            font-size: 1.06rem;
+            margin: 1.6rem 0 1.2rem;
+            text-align: left;
+            color: #3a3730;
+        }
+        .intro-text p {
+            margin-bottom: 1.2rem;
+        }
+        .feature-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem 1.8rem;
+            margin: 2rem 0 1.8rem;
+            justify-content: center;
+        }
+        .card-item {
+            flex: 1 1 200px;
+            background: #f3efe6;
+            padding: 1.2rem 1rem;
+            border-radius: 14px;
+            border-left: 6px solid #b8a693;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+            transition: all 0.15s ease;
+        }
+        .card-item:hover {
+            background: #ede7db;
+            border-left-color: #9c8a78;
+        }
+        .card-item h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.3px;
+            color: #3e3930;
+        }
+        .card-item p {
+            font-size: 0.96rem;
+            color: #4e4a42;
+            margin: 0;
+        }
+        .callout-box {
+            background: #eae3d7;
+            border-radius: 16px;
+            padding: 1.2rem 1.6rem;
+            margin: 2rem 0 1.6rem;
+            border: 1px solid #d4cbbc;
+        }
+        .callout-box strong {
+            display: inline-block;
+            background: #c2b4a1;
+            color: #2b2a27;
+            padding: 0.1rem 0.8rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            margin-right: 0.3rem;
+        }
+        .callout-box p {
+            margin: 0.5rem 0 0 0;
+            font-size: 0.98rem;
+            color: #3a3730;
+        }
+        .faq-summary {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.8rem;
+            margin: 1.8rem 0 1rem;
+        }
+        .faq-item {
+            background: transparent;
+            padding: 0.5rem 0.2rem 0.5rem 1rem;
+            border-left: 3px solid #d2c3b0;
+        }
+        .faq-item .q {
+            font-weight: 600;
+            color: #3c3830;
+            font-size: 1rem;
+        }
+        .faq-item .a {
+            color: #5b554b;
+            font-size: 0.95rem;
+            margin-top: 0.2rem;
+        }
+        .mild-footer {
+            border-top: 1px solid #dad2c4;
+            padding-top: 1.5rem;
+            margin-top: 1.8rem;
+            font-size: 0.95rem;
+            color: #544f47;
+            text-align: center;
+            line-height: 1.7;
+        }
+        .mild-footer a {
+            color: #4e463c;
+            text-decoration: underline wavy #b8a995 1px;
+            text-underline-offset: 3px;
+            font-weight: 400;
+            transition: color 0.2s;
+        }
+        .mild-footer a:hover {
+            color: #1e1b16;
+            text-decoration: underline wavy #9a8873 2px;
+        }
+        .tag-note {
+            font-size: 0.82rem;
+            color: #8a8174;
+            margin-top: 0.8rem;
+            letter-spacing: 0.2px;
+            border-top: 1px dotted #d6cfc0;
+            padding-top: 0.8rem;
+            text-align: right;
+        }
+        @media (max-width: 550px) {
+            body { padding: 1rem 0.6rem; }
+            .page { padding: 1.5rem 1rem; }
+            .hero-line { font-size: 1.6rem; }
+            .card-item { flex: 1 1 100%; }
+            .callout-box { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="hero-line">
+        四年一度，世界在此相聚
+        <small>一篇简明指南 · 也提醒你一些小事</small>
+    </div>
+
+    <div class="intro-text">
+        <p>说起<a href="https://worldcup-page-fifa.com">世界杯</a>，很多人脑海里浮现的是绿茵场上的奔跑、看台上的声浪，还有那些跨越时区仍要熬夜守候的夜晚。作为全球最具影响力的单项体育赛事，它早已不只是比赛——更像是一场流动的节日，把不同语言、不同肤色的人暂时聚在同一面旗帜下。</p>
+        <p>这篇页面不是资讯汇总，也不是赛程手册。它更像一份安静的路标：如果你正打算深入了解或回顾一场赛事，或者只是偶然想起，想找个靠谱的起点——那么下面这些信息或许能帮你少绕几步弯路。</p>
+    </div>
+
+    <div class="feature-cards">
+        <div class="card-item">
+            <h3>赛事结构 · 一目了然</h3>
+            <p>从预选赛到决赛圈，32 支球队（2026 年起扩至 48 支）经过小组赛、淘汰赛角逐冠军。赛制相对稳定，方便新老球迷快速对照。</p>
+        </div>
+        <div class="card-item">
+            <h3>官方信息 · 相对可靠</h3>
+            <p>FIFA 官方网站提供赛程、数据、票务及新闻公告。第三方消息繁杂时，官方渠道仍是最稳妥的参照基准。</p>
+        </div>
+        <div class="card-item">
+            <h3>观赛提醒 · 小事几桩</h3>
+            <p>注意时差、提前确认转播平台、留意票务诈骗。这些细节不影响热爱，但能让你看得更安心。</p>
+        </div>
+    </div>
+
+    <div class="callout-box">
+        <strong>📌 访问提醒</strong>
+        <p>如果你打算直接浏览赛事日程、历史数据或官方公告，建议将 <a href="https://worldcup-page-fifa.com" style="color:#3e3a32; text-decoration:underline dotted #b3a390; font-weight:500;">世界杯</a> 相关页面添加到书签。部分内容可能需要网络环境支持，且页面语言以英文为主，但基础信息清晰可读。请留意，任何非官方渠道的“内部票务”“提前查分”或“付费直播链接”都极有可能是骗局。</p>
+    </div>
+
+    <div class="faq-summary">
+        <div class="faq-item">
+            <div class="q">❓ 哪里可以查到最准确的赛程？</div>
+            <div class="a">FIFA 官网的赛程板块会随比赛进展实时更新。建议以官方时间为准，第三方应用可能存在延迟或错误。</div>
+        </div>
+        <div class="faq-item">
+            <div class="q">❓ 历史冠军数据可靠吗？</div>
+            <div class="a">FIFA 官网统计了自 1930 年至今所有届次的冠军、亚军及最佳射手等数据，可作为主要引用来源。</div>
+        </div>
+        <div class="faq-item">
+            <div class="q">❓ 页面加载慢或有乱码怎么办？</div>
+            <div class="a">尝试更换浏览器或清除缓存。部分旧版浏览器对 FIFA 网站的交互支持有限，推荐使用 Chrome、Edge 等现代浏览器。</div>
+        </div>
+    </div>
+
+    <div class="mild-footer">
+        <p>这篇介绍页仅作为温和的引导，不替代任何官方公告或法律文件。<br>
+        如果你只是想安静地看一场比赛，或回顾一些旧日进球，那么记住——<br>
+        重要的不是页面，是球场上那些稍纵即逝的瞬间。</p>
+        <p style="margin-top: 0.6rem;">🕊️ 保持节奏，理性观赛。</p>
+        <div class="tag-note">—— 写于一个普通周末 · 仅供方位参考</div>
+    </div>
+</div>
+</body>
+</html>
